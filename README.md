@@ -6,9 +6,9 @@ Este projeto é uma implementação completa de observabilidade usando a stack O
 ![image](assets/architecture.png)
 
 ## Stack
-- OpenTelemetry Collector 
+- OpenTelemetry collector 
 - Prometheus (Coleta de métricas)
-- Tempo (Coleta de Trace)
+- Tempo (Coleta de trace)
 - Loki (Coleta de log)
 
 ## Pré-requisitos
@@ -27,6 +27,10 @@ git clone https://github.com/wlcamargo/opentelemetry
 Entre na pasta do projeto:
 ```
 cd opentelemetry
+```
+Como baixar as imagens e rodar os containers?
+```
+sudo docker compose up -d
 ```
 
 ## Como criar e ativar o ambiente virtual?
